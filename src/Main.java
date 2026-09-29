@@ -1,11 +1,13 @@
 //??TODO:we need to add the missing classes!!??
 
+//??Ok, i will addd "Adder " and s35928 will add "Subtractor"
+
 public class Main {
     public static void main (String[] args){
         Adder adder = new Adder();
         System.out.println(adder.add(1, 2));
 
-        Substractor substractor = new Substractor();
-        System.out.println(substractor.substract(6, 3));
+        Subtractor subtractor = new Subtractor();
+        System.out.println(subtractor.subtract(6, 3));
     }
 }
